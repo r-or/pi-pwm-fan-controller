@@ -14,9 +14,9 @@ otherwise the fan will be continuously ON after triggered once (usually
 around 50 degC).
 """
 
-FULL_ON_TEMP = 80.  # [degC] temp for max PWM
-ON_TEMP = 68.  # [degC] temp to switch on
-OFF_TEMP = 50.  # [degC] temp for min PWM
+FULL_ON_TEMP = 85.  # [degC] temp for max PWM
+ON_TEMP = 75.  # [degC] temp to switch on
+OFF_TEMP = 55.  # [degC] temp for min PWM
 INTERVAL = 5.  # [s] refresh interval
 GPIO_PIN = 17  # Pin to connect transistor base
 MAX_PWM = 1.  # PWM at max on temp
